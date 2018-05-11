@@ -3,9 +3,16 @@
       "id": "recieve",
       "include-command-output-in-response": true,
       "include-command-output-in-response-on-error": true,
-      "execute-command": "~/",
-      "command-working-directory": "~"
+      "execute-command": "/home/marvin/blok4/scripts/recieve/recieve.sh",
+      "command-working-directory": "/",
+      "pass-file-to-command":
+    [
+      {
+      	"source": "payload",
+        "name": "message",
+       	"base64decode": true
+      }
+    ]
       
     }
-    
-  ]
+]
