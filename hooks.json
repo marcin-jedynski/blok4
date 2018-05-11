@@ -1,0 +1,11 @@
+[
+    {
+      "id": "recieve",
+      "include-command-output-in-response": true,
+      "include-command-output-in-response-on-error": true,
+      "execute-command": "~/",
+      "command-working-directory": "~"
+      
+    }
+    
+  ]
